@@ -3,7 +3,7 @@ Nodes related to video workflows.
 
 ## This fork
 
-Makes it easier to just load these nodes on Google Colab programmatically. Removes `server.py` and stuff that needs it.
+Makes it easier to just load these nodes on Google Colab programmatically.
 
 ## I/O Nodes
 ### Load Video
