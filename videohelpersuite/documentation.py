@@ -1,4 +1,4 @@
-from logger import logger
+from .logger import logger
 
 def image(src):
     return f'<img src={src} loading=lazy style="width: 0px; min-width: 100%">'
