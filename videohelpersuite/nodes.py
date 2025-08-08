@@ -15,7 +15,7 @@ import itertools
 import functools
 
 import folder_paths
-from logger import logger
+from .logger import logger
 from image_latent_nodes import *
 from load_video_nodes import LoadVideoUpload, LoadVideoPath, LoadVideoFFmpegUpload, LoadVideoFFmpegPath, LoadImagePath
 from load_images_nodes import LoadImagesFromDirectoryUpload, LoadImagesFromDirectoryPath
