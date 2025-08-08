@@ -3,7 +3,7 @@ import torch
 
 import comfy.utils
 
-from utils import BIGMIN, BIGMAX, select_indexes_from_str, convert_str_to_indexes, select_indexes
+from vhsutils import BIGMIN, BIGMAX, select_indexes_from_str, convert_str_to_indexes, select_indexes
 
 
 class MergeStrategies:

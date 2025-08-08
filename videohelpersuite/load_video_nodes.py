@@ -14,7 +14,7 @@ from comfy.utils import common_upscale, ProgressBar
 import nodes
 from comfy.k_diffusion.utils import FolderOfImages
 from logger import logger
-from utils import BIGMAX, DIMMAX, calculate_file_hash, get_sorted_dir_files_from_directory,\
+from vhsutils import BIGMAX, DIMMAX, calculate_file_hash, get_sorted_dir_files_from_directory,\
         lazy_get_audio, hash_path, validate_path, strip_path, try_download_video,  \
         is_url, imageOrLatent, ffmpeg_path, ENCODE_ARGS, floatOrInt
 
