@@ -11,7 +11,6 @@ import functools
 import torch
 from torch import Tensor
 
-import server
 from logger import logger
 import folder_paths
 
@@ -164,7 +163,7 @@ def calculate_file_hash(filename: str, hash_every_n: int = 1):
     h.update(str(os.path.getmtime(filename)).encode())
     return h.hexdigest()
 
-prompt_queue = server.PromptServer.instance.prompt_queue
+
 def requeue_workflow_unchecked():
     """Requeues the current workflow without checking for multiple requeues"""
     currently_running = prompt_queue.currently_running
