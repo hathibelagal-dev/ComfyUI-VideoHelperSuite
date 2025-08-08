@@ -11,7 +11,7 @@ import functools
 import torch
 from torch import Tensor
 
-from logger import logger
+from .logger import logger
 import folder_paths
 
 BIGMIN = -(2**53-1)
