@@ -16,11 +16,11 @@ import functools
 
 import folder_paths
 from .logger import logger
-from image_latent_nodes import *
-from load_video_nodes import LoadVideoUpload, LoadVideoPath, LoadVideoFFmpegUpload, LoadVideoFFmpegPath, LoadImagePath
-from load_images_nodes import LoadImagesFromDirectoryUpload, LoadImagesFromDirectoryPath
-from batched_nodes import VAEEncodeBatched, VAEDecodeBatched
-from vhsutils import ffmpeg_path, get_audio, hash_path, validate_path, requeue_workflow, \
+from .image_latent_nodes import *
+from .load_video_nodes import LoadVideoUpload, LoadVideoPath, LoadVideoFFmpegUpload, LoadVideoFFmpegPath, LoadImagePath
+from .load_images_nodes import LoadImagesFromDirectoryUpload, LoadImagesFromDirectoryPath
+from .batched_nodes import VAEEncodeBatched, VAEDecodeBatched
+from .vhsutils import ffmpeg_path, get_audio, hash_path, validate_path, requeue_workflow, \
         gifski_path, calculate_file_hash, strip_path, try_download_video, is_url, \
         imageOrLatent, BIGMAX, merge_filter_args, ENCODE_ARGS, floatOrInt, cached, \
         ContainsAll
